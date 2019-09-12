@@ -1,0 +1,4 @@
+{
+    "docker_changes": "EXPOSE 8200/tcp,VOLUME /vault/file,VOLUME /vault/logs,USER \"\",WORKDIR /,ENTRYPOINT [\"docker-entrypoint\"],CMD [\"server\"],ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+    "docker_capadd": "--cap-add=IPC_LOCK"
+}

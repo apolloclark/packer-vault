@@ -1,0 +1,18 @@
+# http://docs.ansible.com/ansible/latest/playbooks_variables.html#variable-file-separation
+---
+hostname: all
+
+
+
+# brianshumate.vault
+vault_version: 1.2.2
+vault_install_remotely: true
+vault_backend: file
+vault_config_path: /vault/config
+vault_log_path: /vault/logs
+vault_data_path: /vault/file
+vault_user: vault
+vault_group: vault
+# vault_address: 127.0.0.1
+# vault_cluster_disable: true
+# vault_tls_disable: true

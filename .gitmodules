@@ -1,0 +1,6 @@
+[submodule "base/gradle-build"]
+	path = base/gradle-build
+	url = https://github.com/apolloclark/gradle-build
+[submodule "base/packer-build"]
+	path = base/packer-build
+	url = https://github.com/apolloclark/packer-build

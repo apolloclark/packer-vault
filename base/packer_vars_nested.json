@@ -1,0 +1,11 @@
+{
+    "docker_changes_expose1": "8200/tcp",
+    "docker_changes_volume1": "/vault/file",
+    "docker_changes_volume2": "/vault/logs",
+    "docker_changes_user": "\"\"",
+    "docker_changes_workdir": "/",
+    "docker_changes_entrypoint": "[\"docker-entrypoint\"]",
+    "docker_changes_cmd": "[\"server\", \"-dev\"]",
+    "docker_changes_env": "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+    "docker_capadd": "--cap-add=IPC_LOCK"
+}
