@@ -21,14 +21,7 @@ def load_docker_image
     )
     set :backend, :docker
     set :docker_image, image.id
-    # set :docker_container_create_options, { 'Entrypoint' => ['/usr/local/bin/docker-entrypoint'] }
-    # set :docker_container_create_options, { 'Entrypoint' => ['docker-entrypoint'] }
-    # set :docker_container_create_options, { 'Entrypoint' => [''] }
-    # set :docker_container_create_options, { 'Entrypoint' => "" }
-
     set :docker_container_create_options, { 'Entrypoint' => ['/bin/bash'] }
-
-    # set :docker_container_create_options, { 'Entrypoint' => "" }
     # set :docker_container_create_options, { 'Cmd' => ['bash'] }
     return image
 end
